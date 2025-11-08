@@ -107,7 +107,7 @@ export const placeholderProjects: ProjectData[] = [
     id: 'proj-glimpse-os',
     title: 'Glimpse OS (This Portfolio)',
     description: 'An immersive, OS-in-a-browser portfolio simulating a modern desktop environment. It features a draggable window manager, app launcher, global state management with Zustand, and a custom UI component library built with Emotion.js. This project is a testament to my passion for creating unique and highly interactive user interfaces.',
-    imageUrl: 'src/assets/projectData/glimpseOS.png',
+    imageUrl: '/assets/glimpseOS.png',
     link: '#', // You can change this to your live URL when deployed
     githubLink: 'https://github.com/AEGON247/GlimpseOS', // Replace with your actual repo
     techStack: ['React', 'TypeScript', 'Emotion.js', 'Framer Motion', 'Zustand', 'Vite'],
@@ -116,7 +116,7 @@ export const placeholderProjects: ProjectData[] = [
     id: 'proj-git-smart',
     title: 'git-smart (CLI Tool)',
     description: 'A command-line utility built in Go that automates the tedious 7-step Git workflow of syncing a feature branch with the default branch. The tool intelligently detects the default branch, stashes uncommitted changes, pulls the latest, rebases, and pops the stash, all in one command.',
-    imageUrl: 'src/assets/projectData/gitSmart.png',
+    imageUrl: '/assets/gitSmart.png',
     link: 'https://github.com/AEGON247/git-smart', // Replace with your actual repo
     githubLink: 'https://github.com/AEGON247/git-smart', // Replace with your actual repo
     techStack: ['Go (Golang)', 'Cobra', 'CLI', 'Git'],
@@ -125,7 +125,7 @@ export const placeholderProjects: ProjectData[] = [
     id: 'proj-messiah',
     title: 'Messiah (Food Wastage Tracker)',
     description: 'A conceptual full-stack application for food detection, classification, and wastage tracking. Designed to help users monitor and reduce food waste, this project involved UI/UX design in Figma and planning for a complete system architecture.',
-    imageUrl: 'src/assets/projectData/messiah.png',
+    imageUrl: '/assets/messiah.png',
     link: '#', // Use '#' for concept projects with no live link
     githubLink: '#', // Use '#' if no public repo
     techStack: ['Concept', 'UI/UX Design', 'Figma', 'Full-Stack Architecture'],

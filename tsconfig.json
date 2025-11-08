@@ -10,7 +10,6 @@
   ],
   "compilerOptions": {
     "strict": true,
-    "noEmit":true,
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler", // <-- THIS IS THE FIX

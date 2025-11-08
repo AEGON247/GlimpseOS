@@ -2,7 +2,7 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2022",
-    "composite":true,
+    "composite": true, // Keep this, it's required by 'references'
     "useDefineForClassFields": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
@@ -14,16 +14,25 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "emitDeclarationOnly": true,
-    "jsx": "react-jsx",
+    
+    "noEmit": true, // <-- MOVED FROM ROOT. This is correct for Vite.
+    "jsx": "react-jsx", // <-- MOVED FROM ROOT
+
+    /* New additions from root config */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*" // Use './src/*' since baseUrl is '.'
+      ]
+    },
 
     /* Linting */
-    "strict": true,
+    "strict": true, // <-- MOVED FROM ROOT
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src"] // This correctly includes only the app source code
 }

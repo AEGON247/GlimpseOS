@@ -21,6 +21,12 @@ export interface OsFolderData {
   contents: (OsAppData | OsFolderData)[]; // Folders can contain apps or other folders
 }
 
+export interface SkillData{
+  name: string;
+  icon?: string;
+  category?: string;
+}
+
 export interface OsDesktopItem {
   id: string;
   type: 'app' | 'folder' | 'shortcut';

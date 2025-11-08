@@ -13,7 +13,7 @@ Welcome to **Glimpse OS**, my personal portfolio reimagined as a fully interacti
 This isn't just a static website; it's a dynamic and immersive experience presented within a simulated laptop screen right in your browser.
 
 
-<img src="src\assets\projectData\glimpseOS.png"></img>
+<img src="src\assets\projectData\glimpseOS.png" height=250, width=250></img>
 
 ---
 
@@ -82,7 +82,7 @@ Want to explore the code or run your own instance?
 Crafted with passion by **Sachin Mehta**.
 
 * **GitHub:** [@AEGON247](https://github.com/AEGON247)
-* **LinkedIn:** [https://www.linkedin.com/in/sachin-mehta-785704272/]
+* **LinkedIn:** [@sachin-mehta](https://www.linkedin.com/in/sachin-mehta-785704272/)
 
 ---
 
